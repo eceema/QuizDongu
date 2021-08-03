@@ -24,30 +24,37 @@ public class quiz_dongusu {
 		 System.out.println( " Tekrar bir sayi giriniz.. ");
 		 int newnumber2 = sc.nextInt();
 		 
+		 System.out.println( " Iki sayiyi birbirinden cikariniz.. " );
+		 System.out.println( newnumber2 + "-"  + newnumber1 + " = " + "?" );
+		 int result1 = sc.nextInt();
+		 int real_result1 = newnumber2 - newnumber1;
 		
 	}
 	
-	
+	 else if ( number1 > number2 );
 	 System.out.println( " Iki sayiyi birbirinden cikariniz.. " );
 	 System.out.println( number2 + "-"  + number1 + " = " + "?" );
-	 int result = sc.nextInt();
-	 int real_result = number2-number1 
+	 int result2 = sc.nextInt();
+	 int real_result2 = number2 - number1 ;
+	 
+	 
 	 
 	 
 	 int j = 0;
 	
 	 while (j<5){
-	 if ( result != real_result ) {
+	 if ( result != real_result1 || result2 != real_result2 ) {
 		 System.out.println( " Yanlis bildiniz, tekrar deneyiniz.. ");
 		  j++;
 	 }
 	   
+	 }
 	 
-	 else {
+	 else  {
 	 System.out.println( " Dogru bildiniz, tebrikler.. ");
 	 }
 
-	}
+	
 
 	}
 }
