@@ -31,12 +31,12 @@ public class quiz_dongusu {
 		
 	}
 	
-	 else if ( number1 > number2 );
+	 else if ( number1>number2 ) {
 	 System.out.println( " Iki sayiyi birbirinden cikariniz.. " );
 	 System.out.println( number2 + "-"  + number1 + " = " + "?" );
 	 int result2 = sc.nextInt();
 	 int real_result2 = number2 - number1 ;
-	 
+	 }
 	 
 	 
 	 
@@ -47,13 +47,15 @@ public class quiz_dongusu {
 		 System.out.println( " Yanlis bildiniz, tekrar deneyiniz.. ");
 		  j++;
 	 }
-	   
-	 }
-	 
-	 else  {
-	 System.out.println( " Dogru bildiniz, tebrikler.. ");
-	 }
+		  else  {
+				 System.out.println( " Dogru bildiniz, tebrikler.. ");
+				 
+				//uygulamadan cikmak icin bir sey lazim.
+				 }
 
+	 }
+	   
+	 
 	
 
 	}
