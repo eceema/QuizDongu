@@ -28,6 +28,8 @@ public class quiz_dongusu {
 		 System.out.println( newnumber2 + "-"  + newnumber1 + " = " + "?" );
 		 int result1 = sc.nextInt();
 		 int real_result1 = newnumber2 - newnumber1;
+		 
+	
 		
 	}
 	
@@ -43,7 +45,7 @@ public class quiz_dongusu {
 	 int j = 0;
 	
 	 while (j<5){
-	 if ( result != real_result1 || result2 != real_result2 ) {
+	 if ( result1 != real_result1 || result2 != real_result2 ) {
 		 System.out.println( " Yanlis bildiniz, tekrar deneyiniz.. ");
 		  j++;
 	 }
