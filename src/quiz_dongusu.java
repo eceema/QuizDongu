@@ -45,6 +45,7 @@ public class quiz_dongusu {
 	 int j = 0;
 	
 	 while (j<5){
+		 \\ 5 hak vermek istedim
 	 if ( result1 != real_result1 || result2 != real_result2 ) {
 		 System.out.println( " Yanlis bildiniz, tekrar deneyiniz.. ");
 		  j++;
